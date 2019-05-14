@@ -2,6 +2,9 @@
   "name": "webpack-bloglist",
   "version": "0.0.1",
   "description": "practising webpack",
+  "engines": {
+    "node": "10.15.1"
+  },
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack-dev-server --mode=development"
