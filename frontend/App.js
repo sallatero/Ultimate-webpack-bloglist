@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react'
-import MenuComponent from './components/MenuComponent'
-import Footer from './components/Footer'
-import { setMessage } from './reducers/notificationReducer'
-import { initializeBlogs, likeBlog, deleteBlog } from './reducers/blogReducer'
+import MenuComponent from './src/components/MenuComponent'
+import Footer from './src/components/Footer'
+import { initializeBlogs, likeBlog, deleteBlog } from './src/reducers/blogReducer'
 import { connect } from 'react-redux'
-import { initializeUser, setUser, loginUser, logoutUser } from './reducers/loggedUserReducer'
-import { initializeUsers } from './reducers/userlistReducer'
+import { initializeUser, setUser, loginUser, logoutUser } from './src/reducers/loggedUserReducer'
+import { initializeUsers } from './src/reducers/userlistReducer'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 const App = (props) => {

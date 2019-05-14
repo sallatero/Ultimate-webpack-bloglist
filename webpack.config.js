@@ -9,7 +9,7 @@ const config = (env, argv) => {
   : 'http://localhost:3003'
 
   return {
-    entry: ['@babel/polyfill', './frontend/src/index.js'],
+    entry: ['@babel/polyfill', './frontend/index.js'],
     output: {
       path: path.resolve(__dirname, 'build'),
       filename: 'main.js'
